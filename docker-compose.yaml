@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+ sqlserver:
+    image: "mcr.microsoft.com/mssql/server:2019-latest"
+    environment:
+      ACCEPT_EULAc: "Y"
+      SA_PASSWORD :  ""
+      MSSQL_PID : "" 
+    ports :
+       - "1433.1433"   
+
+
+       
+
